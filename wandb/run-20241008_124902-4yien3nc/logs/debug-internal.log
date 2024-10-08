@@ -1,0 +1,17 @@
+{"time":"2024-10-08T12:49:02.252001+02:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-08T12:49:02.252101+02:00","level":"INFO","msg":"created symlink","path":"/Users/mbardiot/Library/CloudStorage/GoogleDrive-mbardiot@deezer.com/My Drive/ecole/meditime/MEDITIME/wandb/run-20241008_124902-4yien3nc/logs/debug-core.log"}
+{"time":"2024-10-08T12:49:02.255243+02:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-08T12:49:02.318027+02:00","level":"INFO","msg":"created new stream","id":"4yien3nc"}
+{"time":"2024-10-08T12:49:02.31808+02:00","level":"INFO","msg":"stream: started","id":"4yien3nc"}
+{"time":"2024-10-08T12:49:02.318118+02:00","level":"INFO","msg":"sender: started","stream_id":{"value":"4yien3nc"}}
+{"time":"2024-10-08T12:49:02.318105+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"4yien3nc"}}
+{"time":"2024-10-08T12:49:02.318114+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"4yien3nc"}}
+{"time":"2024-10-08T12:49:32.320076+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2024-10-08T12:50:04.664444+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2024-10-08T12:50:34.68431+02:00","level":"INFO","msg":"stream: closing","id":"4yien3nc"}
+{"time":"2024-10-08T12:50:34.684693+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"4yien3nc"}}
+{"time":"2024-10-08T12:50:34.684766+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"4yien3nc"}}
+{"time":"2024-10-08T12:50:34.685071+02:00","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: api: failed sending: POST https://api.wandb.ai/graphql giving up after 3 attempt(s): context canceled"}
+{"time":"2024-10-08T12:50:34.685264+02:00","level":"ERROR","msg":"runwork: ignoring record after close","work":{"Record":{"RecordType":{"Request":{"RequestType":{"Defer":{}}}},"control":{"always_send":true}}}}
+{"time":"2024-10-08T12:50:34.687034+02:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"4yien3nc"}}
+{"time":"2024-10-08T12:50:34.687091+02:00","level":"INFO","msg":"stream: closed","id":"4yien3nc"}

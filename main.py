@@ -3,10 +3,6 @@ from api_handler import find_specialist
 import torch
 import wandb
 import random
-import os
-
-access_token = os.environ.get('HF_TOKEN')
-
 
 # start a new wandb run to track this script
 wandb.init(
@@ -40,9 +36,10 @@ wandb.finish()
 # Meditron le boss
 def load_meditron():
     print("Loading Meditron model...")
-    tokenizer = AutoTokenizer.from_pretrained("epfl-llm/meditron-70b", token=access_token)
-    model = AutoModelForCausalLM.from_pretrained("epfl-llm/meditron-70b", token=access_token)
+    tokenizer = AutoTokenizer.from_pretrained("epfl-llm/meditron-70b")
+    model = AutoModelForCausalLM.from_pretrained("epfl-llm/meditron-70b")
     return tokenizer, model
+
 # gen une réponse  basée sur l'input de l'utilisateur
 
 def generate_response(user_input, tokenizer, model):
