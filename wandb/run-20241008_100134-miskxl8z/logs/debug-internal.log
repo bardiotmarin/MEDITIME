@@ -1,0 +1,18 @@
+{"time":"2024-10-08T10:01:34.544546+02:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-08T10:01:34.544575+02:00","level":"INFO","msg":"created symlink","path":"/Users/mbardiot/Library/CloudStorage/GoogleDrive-mbardiot@deezer.com/My Drive/ecole/meditime/MEDITIME/wandb/run-20241008_100134-miskxl8z/logs/debug-core.log"}
+{"time":"2024-10-08T10:01:34.546408+02:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-08T10:01:34.581397+02:00","level":"INFO","msg":"created new stream","id":"miskxl8z"}
+{"time":"2024-10-08T10:01:34.581433+02:00","level":"INFO","msg":"stream: started","id":"miskxl8z"}
+{"time":"2024-10-08T10:01:34.581441+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"miskxl8z"}}
+{"time":"2024-10-08T10:01:34.58148+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"miskxl8z"}}
+{"time":"2024-10-08T10:01:34.58148+02:00","level":"INFO","msg":"sender: started","stream_id":{"value":"miskxl8z"}}
+{"time":"2024-10-08T10:01:34.892573+02:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-08T10:01:34.893176+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-08T10:01:34.922597+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-08T10:01:34.922638+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-08T10:01:35.997774+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-08T10:01:37.262462+02:00","level":"INFO","msg":"stream: closing","id":"miskxl8z"}
+{"time":"2024-10-08T10:01:37.262483+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"miskxl8z"}}
+{"time":"2024-10-08T10:01:37.262503+02:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"miskxl8z"}}
+{"time":"2024-10-08T10:01:37.262501+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"miskxl8z"}}
+{"time":"2024-10-08T10:01:37.262613+02:00","level":"INFO","msg":"stream: closed","id":"miskxl8z"}

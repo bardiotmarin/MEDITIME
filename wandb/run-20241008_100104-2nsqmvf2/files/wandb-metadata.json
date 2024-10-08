@@ -1,0 +1,17 @@
+{
+  "os":  "macOS-14.6.1-arm64-arm-64bit",
+  "python":  "3.12.7",
+  "startedAt":  "2024-10-08T08:01:04.641101Z",
+  "program":  "/Users/mbardiot/Library/CloudStorage/GoogleDrive-mbardiot@deezer.com/My Drive/ecole/meditime/MEDITIME/main.py",
+  "codePath":  "main.py",
+  "git":  {
+    "remote":  "https://github.com/bardiotmarin/MEDITIME.git",
+    "commit":  "b9af5b44442b92105d1ba418d44f838e01c451c6"
+  },
+  "email":  "bardiot.marin@gmail.com",
+  "root":  "/Users/mbardiot/Library/CloudStorage/GoogleDrive-mbardiot@deezer.com/My Drive/ecole/meditime/MEDITIME",
+  "host":  "FRLPMC3037",
+  "username":  "mbardiot",
+  "executable":  "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+  "codePathLocal":  "main.py"
+}

@@ -2,11 +2,10 @@ import requests
 
 def find_specialist(bot_response):
     # Extract important information from bot response (e.g., health concern)
-    # You may need to add NLP parsing here for better accuracy.
     health_concern = extract_health_concern(bot_response)
 
     # requette api 
-    url = f"https://public.opendatasoft.com/api/records/1.0/search/?dataset=medecins&q={health_concern}"
+    url = f"https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/medecins/records?limit=100"
     response = requests.get(url)
     
     if response.status_code == 200:

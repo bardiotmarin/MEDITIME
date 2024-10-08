@@ -1,0 +1,18 @@
+{"time":"2024-10-08T10:07:14.825221+02:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-08T10:07:14.825289+02:00","level":"INFO","msg":"created symlink","path":"/Users/mbardiot/Library/CloudStorage/GoogleDrive-mbardiot@deezer.com/My Drive/ecole/meditime/MEDITIME/wandb/run-20241008_100714-wwy0iq4x/logs/debug-core.log"}
+{"time":"2024-10-08T10:07:14.828131+02:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-08T10:07:14.887263+02:00","level":"INFO","msg":"created new stream","id":"wwy0iq4x"}
+{"time":"2024-10-08T10:07:14.887295+02:00","level":"INFO","msg":"stream: started","id":"wwy0iq4x"}
+{"time":"2024-10-08T10:07:14.887299+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"wwy0iq4x"}}
+{"time":"2024-10-08T10:07:14.887304+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"wwy0iq4x"}}
+{"time":"2024-10-08T10:07:14.887343+02:00","level":"INFO","msg":"sender: started","stream_id":{"value":"wwy0iq4x"}}
+{"time":"2024-10-08T10:07:15.166991+02:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-08T10:07:15.168204+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-08T10:07:15.213949+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-08T10:07:15.213986+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-08T10:07:16.250266+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-08T10:07:17.482196+02:00","level":"INFO","msg":"stream: closing","id":"wwy0iq4x"}
+{"time":"2024-10-08T10:07:17.482233+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"wwy0iq4x"}}
+{"time":"2024-10-08T10:07:17.482281+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"wwy0iq4x"}}
+{"time":"2024-10-08T10:07:17.482294+02:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"wwy0iq4x"}}
+{"time":"2024-10-08T10:07:17.482495+02:00","level":"INFO","msg":"stream: closed","id":"wwy0iq4x"}
